@@ -143,8 +143,8 @@ for c in range(1,6):
 """
 import random
 random_number=random.randint(1,100)
-while True:
     user_number=int(input("请输入你猜的数字:"))
+while True:
     if user_number==random_number:
         print("恭喜你，猜对了")
         break
